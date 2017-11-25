@@ -1,0 +1,33 @@
+title: Works
+
+files: false
+
+options:
+  template: false
+  status: true
+  url: false
+  delete: false
+
+pages:
+  template: work
+  hide: true
+
+fields:
+  hidebar:
+    type: hidebar
+
+  title:
+    label: Title
+    type: text
+
+  pageindex:
+    label: Works
+    type: index
+    options: children
+
+  perpage:
+    label: Number of works per page
+    type: number
+    help:
+      en: Multiples of 4
+      nl: Meervoud van 4

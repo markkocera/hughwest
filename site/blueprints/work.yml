@@ -1,0 +1,25 @@
+title: Work
+
+pages: false
+icon: flask
+
+options:
+  status: true
+
+fields:
+  reveal: reveal
+  previewfiles:
+    type: previewfiles
+
+  title:
+    label: Title
+    type: text
+    required: true
+
+  dimensions:
+    label: Dimensions
+    type: textarea
+    hint: 'Example: 10 × 20 × 30 cm. Please be consisitent with how you specify the dimensions.'
+
+files:
+  type: image
